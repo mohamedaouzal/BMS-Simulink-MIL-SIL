@@ -1,0 +1,33 @@
+# Reproducible local builds and simulation caches
+/generated/
+/backups/
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.slxc
+*.mex*
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# MATLAB and editor temporary files
+*.asv
+*.m~
+*.slx.autosave
+*.slx.original
+*.slx.bak
+*.bak
+*.tmp
+matlab_crash_dump.*
+.DS_Store
+Thumbs.db
+
+# Preserve the four supplied SIL evidence files; ignore other local results
+/results/*
+!/results/sil_normal_scenario.mat
+!/results/sil_voltage_scenarios.mat
+!/results/sil_oc_scenarios.mat
+!/results/sil_temperature_scenarios.mat

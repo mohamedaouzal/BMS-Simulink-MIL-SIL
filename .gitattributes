@@ -1,0 +1,22 @@
+* text=auto
+*.m text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# MATLAB/Simulink binary files must not receive text conversion or merging
+*.slx binary
+*.mdl binary
+*.sldd binary
+*.slxp binary
+*.mdlp binary
+*.mat binary
+*.mlx binary
+*.mlapp binary
+*.fig binary
+*.p binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.zip binary

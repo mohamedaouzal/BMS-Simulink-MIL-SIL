@@ -1,0 +1,17 @@
+﻿Suite,Group,EntryPoint,SILScenarios,Coverage,ReportedStatus,SavedEvidence
+MIL,Cell voltage,test_cell_voltage_at_180s,,Cell voltage at 180 s,PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,Module,run_module_tests,,"Rest, charge, discharge",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,Pack,run_pack_tests,,"Rest, charge, discharge",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,SOC estimator,run_estimator_tests,,"Current integration, initial error, bias, capacity mismatch, limits",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,OV detection,run_ov_tests,,"Normal, single-cell and threshold cases",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,OV fault,run_ov_fault_tests,,"Normal, startup, hysteresis",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,OV integration,run_ov_integration_tests,,Startup and charge stop,PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,UV fault,run_uv_tests,,"Normal, startup, hysteresis",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,UV integration,run_uv_integration_tests,,Startup and discharge stop,PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,Voltage permissions,test_voltage_current_permissions,,Direction permissions under voltage faults,PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,OC protection,run_oc_tests,,"Constant boundaries, reset, integration and voltage interactions",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+MIL,Temperature protection,run_temperature_tests,,"Constant boundaries, hysteresis, integration and interactions",PASS reported by user,Conversation PASS summary; rerun runner for fresh results
+SIL,Normal discharge,test_sil_normal_scenario,1,All 15 controller outputs and independent expected values,PASS reported by user,results/sil_normal_scenario.mat
+SIL,Voltage protection,test_sil_voltage_scenarios,2,All 15 controller outputs and independent expected values,PASS reported by user,results/sil_voltage_scenarios.mat
+SIL,OC protection,test_sil_oc_scenarios,2,All 15 controller outputs and independent expected values,PASS reported by user,results/sil_oc_scenarios.mat
+SIL,Temperature protection,test_sil_temperature_scenarios,4,All 15 controller outputs and independent expected values,PASS reported by user,results/sil_temperature_scenarios.mat
